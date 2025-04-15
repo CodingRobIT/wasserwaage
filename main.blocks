@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="8z]a!dTA4*9E[}0*fu}=">Neigung X</variable></variables><block type="pxt-on-start" id="Uh0*.MGB{@(wB:92@0eK" x="-360" y="-348"><statement name="HANDLER"><block type="device_show_leds" id="OJW*Q4:IKnnz;E*5OX}w"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_set_led_color" id="9)aTel-a||v{_^$Upg$T"><value name="color"><shadow type="colorNumberPicker" id="uM~tqK3ktF$?Oy8Z@B(7"><field name="value">0xff0000</field></shadow></value></block></next></block></statement></block><block type="device_forever" id=".Vq$=j#F_u:Up^W9XnU2" x="-99" y="-280"><statement name="HANDLER"><block type="controls_if" id="u8xG%s+Z,I}O5ZeYUnse"><mutation elseif="3" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="U5bKHBHw`j`VEgS0(MAS" disabled-reasons="MANUALLY_DISABLED"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="=K]fH^Yv8YCI*8|ISKn:"><field name="gesture">Gesture.TiltLeft</field></block></value><statement name="DO0"><block type="device_show_leds" id="xHqGUWe]atLaca|FOeRy"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="H~]/@!b+/))$f]e$0Di?"><field name="BOOL">FALSE</field></shadow><block type="deviceisgesture" id="g-?mDpry:f{HNDq1ln9U"><field name="gesture">Gesture.TiltRight</field></block></value><statement name="DO1"><block type="device_show_leds" id="2/=Ob@PO6JB^M;usqXs`"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF2"><shadow type="logic_boolean" id="!S*;J~/jkcaNL49:1.-H"><field name="BOOL">FALSE</field></shadow><block type="deviceisgesture" id="%(PJZ0^I]jbg9cKJM_Mm"><field name="gesture">Gesture.LogoDown</field></block></value><statement name="DO2"><block type="device_show_leds" id="2q.Sq:_$Y0NG!aEpg#/N"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF3"><shadow type="logic_boolean" id="-?iy6L#miap|;dm(Q3.7"><field name="BOOL">FALSE</field></shadow><block type="deviceisgesture" id="Xm1j9zNjF^_v[DWs(QqM"><field name="gesture">Gesture.LogoUp</field></block></value><statement name="DO3"><block type="device_show_leds" id="^]7mDJQN7Kx!gZt.NBBB"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="8/N(},S%r3.}QYuSm}x#"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="deviceisgesture" id="E-vi[E9j3$qB-$ynF2Qc" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="649" y="-228"><field name="gesture">Gesture.TiltLeft</field></block><block type="variables_get" id=":H?9jDL?]?/B$A+|A/i!" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="683" y="-139"><field name="VAR" id="8z]a!dTA4*9E[}0*fu}=">Neigung X</field></block><block type="logic_boolean" id="lZZI^W(0ywNjD~=gFdJV" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="296" y="-31"><field name="BOOL">FALSE</field></block><block type="logic_boolean" id="d=b$N#VlT]AB1!9Hl@tn" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="296" y="-31"><field name="BOOL">TRUE</field></block><block type="device_gesture_event" id="Gc]jmigdHlF*9Mvfq*_n" x="838" y="-41"><field name="NAME">Gesture.Shake</field></block></xml>
